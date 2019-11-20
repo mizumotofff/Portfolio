@@ -109,7 +109,7 @@
  }
 
  .portfolio__work{
- text-align: center;
+ text-align: left;
  /* display: inline-block; */
  margin: 20px auto;
  }
@@ -157,6 +157,33 @@
    font-size: 70px;
    text-align: left;
    margin: 0px auto 30px;
+ }
+
+ .contact{
+   margin: 0 auto;
+   width: 100vw;
+   height: 100vh;
+   display:table-cell;
+   text-align: left;
+   opacity: 0;
+   background-color: #fff;
+ }
+
+ .contact__title{
+   display: block;
+   /* color: #FF0091; */
+   color: #000;
+   border-bottom: solid 3px #FF0091;;
+   font-size: 70px;
+   text-align: left;
+   margin: 0px auto 30px;
+ }
+
+ .contact__mail{
+ color: #000;
+ font-size: 20px;
+ text-align: center;
+ margin-bottom: 200px;
  }
 
 }

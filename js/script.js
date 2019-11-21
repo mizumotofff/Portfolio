@@ -15,7 +15,7 @@ $(function() {
             var position = $(top).offset().top;
             var scroll = $(window).scrollTop();
             var windowHeight = $(window).height();
-            if (scroll > position - windowHeight + 500){
+            if (scroll > position - windowHeight + 200){
               $(top).addClass('fade');
             }
     });
@@ -24,7 +24,7 @@ $(function() {
             var position = $(portfolio).offset().top;
             var scroll = $(window).scrollTop();
             var windowHeight = $(window).height();
-            if (scroll > position - windowHeight + 500){
+            if (scroll > position - windowHeight + 200){
               $(portfolio).addClass('fade');
             }
     });
@@ -33,7 +33,7 @@ $(function() {
             var position = $(contact).offset().top;
             var scroll = $(window).scrollTop();
             var windowHeight = $(window).height();
-            if (scroll > position - windowHeight + 500){
+            if (scroll > position - windowHeight + 200){
               $(contact).addClass('fade');
             }
     });
